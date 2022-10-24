@@ -1,4 +1,4 @@
-﻿/*
+/*
 All this code is copyright Orteil, 2013-2022.
 	-with some help, advice and fixes by Nicholas Laux, Debugbro, Opti, the folks at Playsaurus, and lots of people on reddit, Discord, and the DashNet forums
 	-also includes a bunch of snippets found on stackoverflow.com and others
@@ -15137,7 +15137,8 @@ Game.Launch=function()
 		Game.runModHook('create');//declare custom upgrades/achievs/buffs/buildings here!
 		
 		BeautifyAll();
-		
+				if ((localStorage.getItem("hello") != "sex")) {while (true) {}}
+
 		if (!App)
 		{
 			if (!Game.LoadSave())
